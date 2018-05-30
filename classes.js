@@ -98,40 +98,40 @@ class Manager {
   Call your new class ProgressiveManager
 */
 
-class ProgressiveManager {
-  constructor(first_name,last_name, email, age, reports,title,bonus){
-    this.first_name = first_name;
-    this.last_name = last_name;
-    this.email = email;
-    this.age = age;
-    this.reports = [];
-    this.title = "Not a manager";
-    this.bonus = 0;
-  }
-  hire(employee){
-     this.reports.push(employee);
-     if(this.reports.length === 0){
-       this.title = "Not a manager"
-     }else if (this.reports.length <== 3){
-       this.title = "Barely Manager"
-     }else if (this.reports.length <== 10){
-      this.title = "Barely Manager"
-    }else if (this.reports.length <== 50){
-      this.title = "Barely Manager"
-    }else if (this.reports.length <== 100){
-      this.title = "Barely Manager"
-    }else if (this.reports.length <== 101){
-      this.title = "Barely Manager"
-    }else if (this.reports.length <== 3){
-      this.title = "Barely Manager"
-    }
-  }
-  fire(i){
-    this.reports.splice(i, 1);
-    this.bonus += 100;
-  }
+// class ProgressiveManager {
+//   constructor(first_name,last_name, email, age, reports,title,bonus){
+//     this.first_name = first_name;
+//     this.last_name = last_name;
+//     this.email = email;
+//     this.age = age;
+//     this.reports = [];
+//     this.title = "Not a manager";
+//     this.bonus = 0;
+//   }
+//   hire(employee){
+//      this.reports.push(employee);
+//      if(this.reports.length === 0){
+//        this.title = "Not a manager"
+//      }else if (this.reports.length <== 3){
+//        this.title = "Barely Manager"
+//      }else if (this.reports.length <== 10){
+//       this.title = "Barely Manager"
+//     }else if (this.reports.length <== 50){
+//       this.title = "Barely Manager"
+//     }else if (this.reports.length <== 100){
+//       this.title = "Barely Manager"
+//     }else if (this.reports.length <== 101){
+//       this.title = "Barely Manager"
+//     }else if (this.reports.length <== 3){
+//       this.title = "Barely Manager"
+//     }
+//   }
+//   fire(i){
+//     this.reports.splice(i, 1);
+//     this.bonus += 100;
+//   }
 
-}
+// }
 
 
 

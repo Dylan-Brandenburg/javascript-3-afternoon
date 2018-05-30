@@ -49,10 +49,9 @@ var employees = [
     2. If the employee's first name is Lorie, change her department to 'HR'.
     3. Return the updated employee array.
 */
-
-//Code Here
-
-
+function employeeUpdater(){
+  for ( let i = 0 ; i<arr.)
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -68,7 +67,9 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
     3. Return the updated array.
 */
 
-//Code Here
+// function removeDuplicates(arr){
+
+// }
 
 
 
@@ -138,9 +139,14 @@ var myCar = {
     3. Change atFaultForAccident from true to false.
 */
 
-//Code Here
+// function recordCleaner(arr){
+//   console.log(arr);
+//   for(let i = 0; i < arr.length; i++){
+//     console.log(arr);
+//   }
+// }
 
-
+// recordCleaner(myCar);
 
 ////////// PROBLEM 5 //////////
 
@@ -157,6 +163,10 @@ var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
     4. Return the modified numsArr.
 */
 
-//Code Here
+// function looper(arr){
+//   for (let i = 0; i < arr.length; i++){
+
+//   }
+// }
 
 
